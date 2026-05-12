@@ -115,4 +115,8 @@ while (choice !=5)
                  cout << "Stack is empty. No top value." << endl;
             }
             break;
+        case 4:
+            cout << "exiting program." << endl;
+            break;
+        }
     }
