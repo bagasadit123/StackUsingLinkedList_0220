@@ -110,5 +110,9 @@ while (choice !=5)
             {
                 stack.peek();
             }
-        }
+            else
+            {
+                 cout << "Stack is empty. No top value." << endl;
+            }
+            break;
     }
