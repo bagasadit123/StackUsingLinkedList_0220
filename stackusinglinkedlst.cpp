@@ -95,4 +95,10 @@ while (choice !=5)
             cin >> value;
             stack.push(value); //push the entered value into the stack
             break;
+        case 2:
+            if (!stack.isempty())
+            {
+                stack.pop(); //pop the top element from the stack
+            }
     }
+}
