@@ -53,4 +53,8 @@ void peek()
         {
             cout << "List is Empty." << endl;
         }
-    
+            else
+        {
+            Node *current = top;
+            while ( current != NULL)
+        }
